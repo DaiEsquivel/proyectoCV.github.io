@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+*{
+    font-family: 'Golos Text', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*home*/
+.home{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0, 0, 0, 0.61)), 
+    url("fondo.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: rgb(255, 255, 255);
+
+}
+.home .contenido-section{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 80px 20px;
+}
+.home .contenido-section .nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: rgb(60, 15, 110);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+.home .contenido-section .nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.home .contenido-section .nav-menu{
+    position: fixed;
+    background-color: rgb(60, 15, 110);
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+
+}
+.home .contenido-section .nav-menu:hover{
+    box-shadow: 0 0 25px #fff;
+}
+.home .contenido-section .info{
+    padding-bottom: 20px;
+}
+.home .contenido-section .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    display: inline-block;
+}
+.home .contenido-section .info span{
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+.home .contenido-section .info h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -3px;
+}
+
+.home .contenido-section .info .redes{
+    margin: 20px 0;
+}
+.home .contenido-section .info .redes a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(83, 13, 141);
+    border: 2px solid rgb(83, 13, 141);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+.home .contenido-section .info .redes a:hover{
+    color: #fff;
+    background-color: rgb(83, 13, 141);
+    box-shadow: 0 0 20px #fff;
+}
+.home .foto{
+    position: relative;
+}
+.home .foto img{
+    width: 180px;
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(83, 13, 141);
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+}
+/*sobre mi*/
+.sobre-mi{
+    background-color: #e6e6e6;
+    padding: 100px 50px;
+    text-align: center;
+}
+.sobre-mi .contenido-section{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.sobre-mi .contenido-section h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.sobre-mi .contenido-section p{
+    max-width: 700px;
+    margin: auto;
+    color: #666;
+}
+.sobre-mi .contenido-section ul{
+    list-style: none;
+    height: 30px;
+    padding: 10px 0px ;
+}
+.sobre-mi .contenido-section ul li{
+    text-align: center;
+    font-size: 20px;
+}
+/*herramientas*/
+.herramientas{
+    background-color: #e6e6e6;
+}
+.herramientas .contenido-section h3{
+    font-size: 30px;
+    text-align: center;
+}
+.herramientas .contenido-section .fila{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(83, 13, 141);
+}
+/*experiencias y educacion*/
+.exp{
+    background-color: #e6e6e6;
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+.exp .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.exp .contenido-seccion h3{
+    font-size: 30px;
+}
+.exp .contenido-seccion .info{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.exp .contenido-seccion .info .col{
+    width: 45%;
+}
+.exp .contenido-seccion .info .col .titulo{
+    display: inline-block;
+    color: rgb(83, 13, 141);
+    font-weight: bold;
+    border: 2px solid rgb(83, 13, 141);
+    padding: 10px;
+
+}
+.exp .contenido-seccion .info .col table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.exp .contenido-seccion .info .col table .datos{
+    width: 40%;
+    border-bottom: 1px solid #bab9b9;
+}
+.exp .contenido-seccion .info .col table h4{
+    margin-top: 10px;
+}
+.exp .contenido-seccion .info .col table h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.exp .contenido-seccion .info .col table p{
+    font-size: 14px;
+}
+
+.exp .contenido-seccion .info .col table .descripcion{
+    border-left: 1px solid #bab9b9;
+    padding-left: 20px;
+}
+/*CONTACTO */
+.contacto{
+    background-color: #e6e6e6;
+    padding: 50px 0 20px 0;
+    text-align: center;
+}
+.contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 5px;
+}
+.contacto .contenido-seccion h2{
+    font-size: 30px;
+}
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .contenido-seccion .fila .col{
+    margin-top: 10px;
+}
+.contacto .contenido-seccion .fila .col h2{
+    color:rgb(83, 13, 141);
+}
